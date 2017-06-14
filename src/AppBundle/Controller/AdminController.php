@@ -15,7 +15,6 @@ class AdminController extends Controller
     public function showIndex()
     {
         
-         return new Response("<html><head><title>Vancouver Life Lines</title></head><body><h1>Welcome to <br/> Vancouver!</h1></body></html>");
-    
+         return $this->render('base.html.twig');
     }   
 }
